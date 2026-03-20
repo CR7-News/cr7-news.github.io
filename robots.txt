@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cr7-news.github.io/sitemap.xml
+# Link to your sitemap to help Google find news faster
+Sitemap: https://ronaldo-news.github.io/sitemap.xml
