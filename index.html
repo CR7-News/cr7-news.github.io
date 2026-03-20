@@ -3,29 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CR7 News | Ronaldo Updates 2026</title>
+    <meta name="description" content="Latest Cristiano Ronaldo News 2026. CR7 Al-Nassr goals, Portugal National Team updates, and match highlights. The #1 source for Ronaldo fans.">
+    <meta name="keywords" content="Cristiano Ronaldo, CR7 News, Ronaldo Al-Nassr, Ronaldo Goals 2026, Portugal Football News">
+    <title>CR7 News | Cristiano Ronaldo Updates & Stats 2026</title>
+    
     <style>
-        body { background-color: #000; color: #fff; font-family: 'Arial', sans-serif; }
-        header { background: linear-gradient(to right, #ed1c24, #ffcc00); padding: 20px; text-align: center; }
-        .news-card { border: 1px solid #ffcc00; margin: 20px; padding: 15px; border-radius: 10px; }
-        .cr7-gold { color: #ffcc00; font-weight: bold; }
+        :root { --gold: #ffcc00; --red: #ed1c24; --dark: #0a0a0a; }
+        body { background-color: var(--dark); color: #f4f4f4; font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; }
+        
+        /* BREAKING NEWS TICKER */
+        .ticker-wrap { background: var(--red); color: white; padding: 10px; overflow: hidden; white-space: nowrap; font-weight: bold; }
+        .ticker-move { display: inline-block; animation: ticker 20s linear infinite; }
+        @keyframes ticker { 0% { transform: translateX(100%); } 100% { transform: translateX(-100%); } }
+
+        header { background: linear-gradient(135deg, #111, #222); padding: 40px 20px; text-align: center; border-bottom: 4px solid var(--gold); }
+        .container { max-width: 1000px; margin: auto; padding: 20px; display: grid; grid-template-columns: 2fr 1fr; gap: 20px; }
+
+        article { background: #1a1a1a; padding: 20px; border-radius: 8px; margin-bottom: 20px; border-left: 5px solid var(--gold); }
+        .stats-card { background: var(--gold); color: black; padding: 20px; border-radius: 8px; font-weight: bold; }
+        
+        h2 { color: var(--gold); margin-top: 0; }
+        .date { color: #888; font-size: 0.8rem; }
+        .btn { display: inline-block; background: var(--red); color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 10px; }
+
+        @media (max-width: 768px) { .container { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
+
+    <div class="ticker-wrap">
+        <div class="ticker-move" id="ticker-text">
+            BREAKING: Cristiano Ronaldo scores a hat-trick for Al-Nassr! ● Portugal Coach confirms Ronaldo to lead World Cup 2026 squad ● CR7 hits 950 career goals! ● 
+        </div>
+    </div>
+
     <header>
         <h1>RONALDO.NEWS</h1>
-        <p>The Ultimate Source for <span class="cr7-gold">CR7</span> Fans</p>
+        <p>The Professional Home of Cristiano Ronaldo Fans</p>
+        <nav>
+            <a href="https://messi-news.github.io" style="color:var(--gold);">Switch to Messi-News</a>
+        </nav>
     </header>
 
-    <main>
-        <div class="news-card">
-            <h2>Latest Goal for Al-Nassr</h2>
-            <p>Cristiano Ronaldo scores a brace! Stay tuned for match highlights.</p>
-        </div>
-    </main>
+    <div class="container">
+        <main>
+            <article>
+                <span class="date">March 20, 2026</span>
+                <h2>CR7 Leads Al-Nassr to Victory in AFC Champions League</h2>
+                <p>In a thrilling match last night, Cristiano Ronaldo showed why he is the GOAT. With two incredible headers, he secured a 3-1 victory for Al-Nassr. Experts are calling this his best form in the Saudi Pro League yet.</p>
+                <a href="#" class="btn">Read Full Report</a>
+            </article>
 
-    <footer>
-        <p>&copy; 2026 Abenezer Girma | <a href="privacy.html" style="color:gray;">Privacy</a></p>
-    </footer>
+            <article>
+                <span class="date">March 19, 2026</span>
+                <h2>Ronaldo's Training Secret for the 2026 World Cup</h2>
+                <p>New reports from the Portugal training camp reveal how Ronaldo is staying fit at 41. His diet and focus on recovery are setting a new standard for young athletes in Ethiopia and around the world.</p>
+                <a href="#" class="btn">View Workout Stats</a>
+            </article>
+            
+            <article>
+                <span class="date">March 18, 2026</span>
+                <h2>Record Breaking: 1 Billion Social Media Followers</h2>
+                <p>Cristiano Ronaldo becomes the first person on Earth to reach 1 billion followers across all platforms. His influence on the game of football remains unmatched in 2026.</p>
+            </article>
+        </main>
+
+        <aside>
+            <div class="stats-card">
+                <h3>🏆 CR7 Live Stats 2026</h3>
+                <p>Total Goals: 952</p>
+                <p>Club: Al-Nassr</p>
+                <p>Status: Match Ready</p>
+            </div>
+            <br>
+            <div style="background:#222; padding:15px; border-radius:8px;">
+                <h3>Partner with Us</h3>
+                <p>Support my journey to get a new PC! <a href="https://aelmb61-collab.github.io/sponsor.html" style="color:var(--gold);">Sponsor Me</a></p>
+            </div>
+        </aside>
+    </div>
+
+    <script>
+        // JS TOOL: Change Ticker Color on Hover
+        const ticker = document.getElementById('ticker-text');
+        ticker.addEventListener('mouseover', () => { ticker.style.color = '#ffcc00'; });
+        ticker.addEventListener('mouseout', () => { ticker.style.color = '#ffffff'; });
+    </script>
+
 </body>
 </html>
