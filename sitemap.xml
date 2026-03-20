@@ -3,21 +3,21 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   
   <url>
-    <loc>https://look-hacker.github.io/</loc>
+    <loc>https://cr7-news.github.io/</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://look-hacker.github.io/privacy.html</loc>
+    <loc>https://cr7-news.github.io/privacy.html</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
 
   <url>
-    <loc>https://look-hacker.github.io/</loc>
+    <loc>https://cr7-news.github.io/</loc>
     <news:news>
       <news:publication>
         <news:name>Global Insights Ethiopia</news:name>
